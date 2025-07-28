@@ -29,5 +29,6 @@ ENV PICO_BOARD="pico_w"
 ENV PICO_SDK_PATH="/pico-sdk"
 ENV PICO_TOOLCHAIN_PATH="/arm-gnu-toolchain/arm-gnu-toolchain-${ARM_GNU_TOOLCHAIN_VERSION}-aarch64-arm-none-eabi"
 ENV PATH="/opt/cmake-${CMAKE_VERSION}-linux-aarch64/bin:${PATH}"
+ENV CMAKE_GENERATOR="Ninja"
 
 ENTRYPOINT ["/bin/bash"]
