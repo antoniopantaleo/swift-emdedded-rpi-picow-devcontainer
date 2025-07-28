@@ -19,6 +19,7 @@
             },
             "extensions": [
                 "swiftlang.swift-vscode",
+                "raspberry-pi.raspberry-pi-pico",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools"
             ]
