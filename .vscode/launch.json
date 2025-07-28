@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DevContainerEmbedded}",
+            "name": "Debug SwiftEmbeddedPico",
+            "program": "${workspaceFolder:DevContainerEmbedded}/.build/debug/SwiftEmbeddedPico",
+            "preLaunchTask": "swift: Build Debug SwiftEmbeddedPico"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DevContainerEmbedded}",
+            "name": "Release SwiftEmbeddedPico",
+            "program": "${workspaceFolder:DevContainerEmbedded}/.build/release/SwiftEmbeddedPico",
+            "preLaunchTask": "swift: Build Release SwiftEmbeddedPico"
+        }
+    ]
+}
