@@ -18,7 +18,7 @@
                 "lldb.library": "/usr/lib/liblldb.so"
             },
             "extensions": [
-                "sswg.swift-lang",
+                "swiftlang.swift-vscode",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools"
             ]
